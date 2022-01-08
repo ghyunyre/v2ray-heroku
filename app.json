@@ -1,0 +1,22 @@
+{
+    "name": "V2ray",
+    "description": "v2ray on heroku.",
+    "keywords": [
+        "v2ray"
+    ],
+    "env": {
+        "UUID": {
+            "description": "Your UUID (*)",
+            "value": ""
+        },
+        "PORT": {
+            "description": "Your PORT (*)",
+            "value": ""
+        },
+        "WSPATH": {
+            "description": "Your PATH (*)",
+            "value": ""
+        }
+    },
+    "stack": "container"
+}
